@@ -21,7 +21,7 @@ const Header = () => {
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div className="collapse navbar-collapse " id="navbarTogglerDemo02">
-					<form className="d-flex ms-auto" role="search">
+					<form className="d-flex ms-auto mt-2" role="search">
 						<input
 							className="form-control me-2"
 							type="search"
@@ -40,7 +40,7 @@ const Header = () => {
 						</li>
 						<li className="nav-item">
 							<Link to="/signup" className="nav-link " aria-current="page">
-								Sign-up
+								Register
 							</Link>
 						</li>
 						<li className="nav-item">
